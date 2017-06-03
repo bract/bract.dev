@@ -11,8 +11,10 @@ Create a file `dev/user.clj` as follows:
 (ns user
   (:require
     [bract.core.dev   :refer [start stop]]
-    [bract.dev.reload :refer [go reinit reset]]))
+    [bract.dev.reload :refer [go reinit reset restart]]))
 ```
+
+At the REPL (ensure `user=>` prompt) you can run: `(start)`, `(stop)`, `(go)`, `(reinit)`, `(reset)`, `(restart)`
 
 ### Leiningen users
 
@@ -26,6 +28,8 @@ Add dependency in the `:dev` profile of your `project.clj`.
            ;; other profiles
            }
 ```
+
+**Note:** If you have a `:main` entry in `project.clj`, move it to the `uberjar` profile.
 
 ### Boot users
 
