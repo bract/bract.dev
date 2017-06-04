@@ -12,7 +12,22 @@
   (:require
     [clojure.tools.namespace.repl :as ctnr]
     [bract.core.dev  :as core-dev]
-    [bract.core.echo :as core-echo]))
+    [bract.core.echo :as core-echo])
+  (:import
+    [bract.core Echo]))
+
+
+(defn verbose
+  "Set verbose mode to specified status (unless environment variable APP_VERBOSE is set):
+  true  - enable verbose mode
+  false - disable verbose mode
+  nil   - clear verbose mode override"
+  [status?]
+  (case status?
+    nil   (System/clearProperty "app.verbose")
+    true  (do (System/setProperty "app.verbose" "true")  (Echo/setVerbose true))
+    false (do (System/setProperty "app.verbose" "false") (Echo/setVerbose false))
+    (throw (ex-info (str "Expected argument to be true, false or nil but found " (pr-str status?)) {}))))
 
 
 (defn reinit
