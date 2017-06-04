@@ -1,7 +1,7 @@
 # Change Log
 
-## [WIP] 0.2.0 / 2017-June-??
-- Moved into `bract.dev` module
+## 0.2.0 / 2017-June-04
+- Moved into `bract.dev` module (`bract.dev.reload` namespace)
 - Compatibility with [Reloaded](https://github.com/stuartsierra/reloaded) workflow
 - Function `verbose` to regulate verbose mode
 
