@@ -3,6 +3,8 @@
 ## TODO
 
 - [TODO] Provide `bract.dev.reload/config` (like `verbose`) to override the config filenames
+- [TODO] `(config)` and `(verbose)` should return the current setting
+- [TODO] `config` and `verbose` should warn when environment variable will prevent any overrides
 
 
 ## 0.2.0 / 2017-June-04
