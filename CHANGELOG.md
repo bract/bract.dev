@@ -1,5 +1,10 @@
 # Change Log
 
+## TODO
+
+- [TODO] Provide `bract.dev.reload/config` (like `verbose`) to override the config filenames
+
+
 ## 0.2.0 / 2017-June-04
 - Moved into `bract.dev` module (`bract.dev.reload` namespace)
 - Compatibility with [Reloaded](https://github.com/stuartsierra/reloaded) workflow
