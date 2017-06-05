@@ -5,6 +5,9 @@
 - [TODO] Provide `bract.dev.reload/config` (like `verbose`) to override the config filenames
 - [TODO] `(config)` and `(verbose)` should return the current setting
 - [TODO] `config` and `verbose` should warn when environment variable will prevent any overrides
+- [TODO] Several tasks should accept an optional env key, e.g. `(start :qa)` that looks up env from context
+  - Requires env key/alias definition
+  - Env key/alias should switch the config file(s)
 
 
 ## 0.2.0 / 2017-June-04
