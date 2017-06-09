@@ -11,7 +11,7 @@
 
 
 ## [WIP] 0.3.0 / 2017-June-??
-- [TODO] Use `[bract.core "0.3.0"]`
+- Use `[bract.core "0.3.0"]`
 
 
 
