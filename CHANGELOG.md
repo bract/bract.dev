@@ -1,10 +1,10 @@
-# Change Log
+# bract.dev TODO and Change Log
 
 ## TODO
 None
 
 
-## [WIP] 0.3.0 / 2017-June-??
+## 0.3.0 / 2017-June-11
 - Use bract.core 0.3
 - [BREAKING CHANGE] Move `verbose` function to `bract.core` module
 

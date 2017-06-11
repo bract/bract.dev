@@ -10,18 +10,21 @@ Create a file `dev/user.clj` as follows:
 ```clojure
 (ns user
   (:require
-    [bract.core.dev   :refer [start stop]]
+    [bract.core.dev   :refer [start stop config verbose]]
     [bract.dev.reload :refer [go reinit reset restart]]))
 ```
 
-At the REPL (ensure `user=>` prompt) you can run: `(start)`, `(stop)`, `(go)`, `(reinit)`, `(reset)`, `(restart)`
+At the REPL (ensure `user=>` prompt) you can run:
+* To start/stop/restart app: `(start)`, `(stop)`, `(go)`, `(reinit)`, `(reset)`, `(restart)`
+* To switch config file: `(config "config/config.qa.edn")`
+* To switch verbosity: `(verbose true)`
 
 ### Leiningen users
 
 Add dependency in the `:dev` profile of your `project.clj`.
 
 ```clojure
-:profiles {:dev {:dependencies [[bract/bract.dev "0.3.0-SNAPSHOT"]
+:profiles {:dev {:dependencies [[bract/bract.dev "0.3.0"]
                                 ;; other dependencies
                                 ]
                  :source-paths ["dev"]}
@@ -39,7 +42,7 @@ Add dependency in a dev task.
 ;; in a dev task
 (set-env!
   :source-paths #{"dev"}
-  :dependencies '[[bract/bract.dev "0.3.0-SNAPSHOT"]
+  :dependencies '[[bract/bract.dev "0.3.0"]
                   ;; other dependencies
                   ]
   ;; other entries
