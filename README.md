@@ -21,7 +21,7 @@ At the REPL (ensure `user=>` prompt) you can run: `(start)`, `(stop)`, `(go)`, `
 Add dependency in the `:dev` profile of your `project.clj`.
 
 ```clojure
-:profiles {:dev {:dependencies [[bract/bract.dev "0.2.0"]
+:profiles {:dev {:dependencies [[bract/bract.dev "0.3.0-SNAPSHOT"]
                                 ;; other dependencies
                                 ]
                  :source-paths ["dev"]}
@@ -39,7 +39,7 @@ Add dependency in a dev task.
 ;; in a dev task
 (set-env!
   :source-paths #{"dev"}
-  :dependencies '[[bract/bract.dev "0.2.0"]
+  :dependencies '[[bract/bract.dev "0.3.0-SNAPSHOT"]
                   ;; other dependencies
                   ]
   ;; other entries
