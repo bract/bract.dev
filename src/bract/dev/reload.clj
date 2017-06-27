@@ -36,7 +36,10 @@
   (reinit))
 
 
-(def go "Same as 'reset'." reset)
+(def go
+  "Stop application if running, followed by reinitializing the app. You must run bract.core.dev/start to start app.
+  Same as 'bract.dev.reload/reset'."
+  reset)
 
 
 (defn restart
