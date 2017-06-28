@@ -3,7 +3,6 @@
 ## [WIP] 0.3.1 / 2017-June-??
 - [TODO] Use bract.core 0.3.1
 - Fix docstring of `bract.dev.reload/go`
-- Add documentation for Github pages
 
 
 ## 0.3.0 / 2017-June-11
