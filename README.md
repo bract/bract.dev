@@ -12,7 +12,7 @@ REPL based development and testing support module for Bract.
 
 Bract documentation: https://bract.github.io/
 
-Module documentation: https://bract.github.io/module/cli.html
+Module documentation: https://bract.github.io/module/dev.html
 
 Demo applications: https://bract.github.io/documentation.html#demo-applications
 

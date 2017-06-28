@@ -1,4 +1,4 @@
-# bract.dev TODO and Change Log
+# bract.dev Change Log
 
 ## [WIP] 0.3.1 / 2017-June-??
 - [TODO] Use bract.core 0.3.1
