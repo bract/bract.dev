@@ -1,7 +1,8 @@
-# bract.dev TODO and Change Log
+# bract.dev Change Log
 
-## TODO
-None
+## [WIP] 0.3.1 / 2017-June-??
+- Use bract.core 0.3.1
+- Fix docstring of `bract.dev.reload/go`
 
 
 ## 0.3.0 / 2017-June-11

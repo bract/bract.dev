@@ -3,51 +3,18 @@
 REPL based development and testing support module for Bract.
 
 
-## Usage
+## Clojars coordinates
 
-Create a file `dev/user.clj` as follows:
+`[bract/bract.core "0.3.1-SNAPSHOT"]`
 
-```clojure
-(ns user
-  (:require
-    [bract.core.dev   :refer [start stop config verbose]]
-    [bract.dev.reload :refer [go reinit reset restart]]))
-```
 
-At the REPL (ensure `user=>` prompt) you can run:
-* To start/stop/restart app: `(start)`, `(stop)`, `(go)`, `(reinit)`, `(reset)`, `(restart)`
-* To switch config file: `(config "config/config.qa.edn")`
-* To switch verbosity: `(verbose true)`
+## Documentation
 
-### Leiningen users
+Bract documentation: https://bract.github.io/
 
-Add dependency in the `:dev` profile of your `project.clj`.
+Module documentation: https://bract.github.io/module/dev.html
 
-```clojure
-:profiles {:dev {:dependencies [[bract/bract.dev "0.3.0"]
-                                ;; other dependencies
-                                ]
-                 :source-paths ["dev"]}
-           ;; other profiles
-           }
-```
-
-**Note:** If you have a `:main` entry in `project.clj`, move it to the `uberjar` profile.
-
-### Boot users
-
-Add dependency in a dev task.
-
-```clojure
-;; in a dev task
-(set-env!
-  :source-paths #{"dev"}
-  :dependencies '[[bract/bract.dev "0.3.0"]
-                  ;; other dependencies
-                  ]
-  ;; other entries
-  )
-```
+Demo applications: https://bract.github.io/documentation.html#demo-applications
 
 
 ## License
