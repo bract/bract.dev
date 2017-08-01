@@ -5,7 +5,7 @@ REPL based development and testing support module for Bract.
 
 ## Clojars coordinates
 
-`[bract/bract.core "0.4.0-alpha1"]`
+`[bract/bract.core "0.4.0-alpha2"]`
 
 
 ## Documentation
