@@ -1,5 +1,20 @@
 # bract.dev Change Log
 
+## TODO
+
+- [TODO] Use the GA version of bract.core 0.4.0
+
+
+## 0.4.0-alpha2 / 2017-August-01
+
+- Use bract.core 0.4.0-alpha2
+
+
+## 0.4.0-alpha1 / 2017-July-31
+
+- Use bract.core 0.4.0-alpha1
+
+
 ## 0.3.1 / 2017-June-30
 - Use bract.core 0.3.1
 - Fix docstring of `bract.dev.reload/go`
