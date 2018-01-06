@@ -8,7 +8,8 @@ None
 ## [WIP] 0.5.0 / 2018-January-??
 
 - Use bract.core 0.5.0
-- [TODO] Return `nil` from `bract.dev.reload` functions
+- Do not return context from `bract.dev.reload` functions (for REPL usability)
+  - `reinit` (by extension `reset` and `go`)
 
 
 ## 0.4.1 / 2017-August-08

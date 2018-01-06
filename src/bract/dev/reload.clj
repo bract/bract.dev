@@ -24,9 +24,8 @@
     (core-dev/deinit)
     ;; refresh namespaces and then call 'init'
     (let [result (ctnr/refresh :after 'bract.core.dev/init)]
-      (if (instance? Throwable result)
-        (throw result)
-        result))))
+      (when (instance? Throwable result)
+        (throw result)))))
 
 
 (defn reset
