@@ -7,7 +7,7 @@ None
 
 ## [WIP] 0.5.0 / 2018-January-??
 
-- [TODO] Use bract.core 0.5.0
+- Use bract.core 0.5.0
 - [TODO] Return `nil` from `bract.dev.reload` functions
 
 
