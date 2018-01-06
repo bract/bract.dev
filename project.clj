@@ -1,4 +1,4 @@
-(defproject bract/bract.dev "0.4.1"
+(defproject bract/bract.dev "0.5.0-SNAPSHOT"
   :description "Dev module for Bract"
   :url "https://github.com/bract/bract.dev"
   :license {:name "Eclipse Public License"
@@ -14,5 +14,5 @@
                    :pedantic? :abort}
              :c17 {:dependencies [[org.clojure/clojure "1.7.0"]]}
              :c18 {:dependencies [[org.clojure/clojure "1.8.0"]]}
-             :c19 {:dependencies [[org.clojure/clojure "1.9.0-alpha17"]]}
+             :c19 {:dependencies [[org.clojure/clojure "1.9.0"]]}
              :dln {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
