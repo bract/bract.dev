@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.5.0 / 2018-February-??
+## 0.5.0 / 2018-February-18
 
 - Use bract.core 0.5.0
 - [BREAKING CHANGE] Do not return context from `bract.dev.reload` functions (for REPL usability)
