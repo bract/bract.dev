@@ -5,10 +5,9 @@
 None
 
 
-## [WIP] 0.5.1 / 2018-February-??
+## [WIP] 0.5.1 / 2018-March-??
 
 - Use bract.core 0.5.1
-  - [TODO] Use the GA version
 
 
 ## 0.5.0 / 2018-February-18
