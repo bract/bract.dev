@@ -7,8 +7,7 @@ None
 
 ## [WIP] 0.6.0 / 2018-March-??
 
-- Use bract.core 0.6.0
-  - [Todo] Use the GA version
+- Use bract.core 0.6.0-alpha1
 
 
 ## 0.5.1 / 2018-March-05
