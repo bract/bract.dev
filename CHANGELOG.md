@@ -5,6 +5,11 @@
 None
 
 
+## [WIP] 0.6.0-alpha4 / 2018-March-??
+
+- [TODO] Upgrade bract.core to 0.6.0-alpha4
+
+
 ## 0.6.0-alpha3 / 2018-March-23
 
 - Use bract.core 0.6.0-alpha3
