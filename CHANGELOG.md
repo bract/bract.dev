@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.6.0-beta2 / 2018-April-??
+## 0.6.0-beta2 / 2018-May-01
 
 - Upgrade bract.core to 0.6.0-beta2
 
