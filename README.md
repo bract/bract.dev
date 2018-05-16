@@ -5,7 +5,7 @@ REPL based development and testing support module for Bract.
 
 ## Clojars coordinates
 
-`[bract/bract.dev "0.5.1"]`
+`[bract/bract.dev "0.6.0-0.1.0-SNAPSHOT"]`
 
 
 ## Documentation
