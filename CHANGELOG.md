@@ -10,41 +10,6 @@ None
 - Upgrade bract.core to 0.6.0
 
 
-## 0.6.0-beta3 / 2018-May-12
-
-- Upgrade bract.core to 0.6.0-beta3
-
-
-## 0.6.0-beta2 / 2018-May-01
-
-- Upgrade bract.core to 0.6.0-beta2
-
-
-## 0.6.0-beta1 / 2018-March-27
-
-- Upgrade bract.core to 0.6.0-beta1
-
-
-## 0.6.0-alpha4 / 2018-March-25
-
-- Upgrade bract.core to 0.6.0-alpha4
-
-
-## 0.6.0-alpha3 / 2018-March-23
-
-- Use bract.core 0.6.0-alpha3
-
-
-## 0.6.0-alpha2 / 2018-March-22
-
-- Use bract.core 0.6.0-alpha2
-
-
-## 0.6.0-alpha1 / 2018-March-14
-
-- Use bract.core 0.6.0-alpha1
-
-
 ## 0.5.1 / 2018-March-05
 
 - Use bract.core 0.5.1
