@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.6.0-0.1.0 / 2018-October-??
+## 0.6.0-0.1.0 / 2018-October-10
 
 - Upgrade bract.core to 0.6.1
 
