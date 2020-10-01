@@ -13,7 +13,7 @@ None
 - Documentation
   - [Todo] Add _cljdoc_ badge
   - Reformat docstring for _cljdoc_
-  - [Todo] Add documentation page with context and config keys
+  - Add documentation page with usage instructions
 
 
 ## 0.6.0-0.1.0 / 2018-October-10
