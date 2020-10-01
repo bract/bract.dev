@@ -11,7 +11,7 @@ None
 - [Todo - Check breaking] Upgrade tools.namespace to 1.0.0
 - Add namespace `bract.dev.repl` for REPL support
 - Documentation
-  - [Todo] Add _cljdoc_ badge
+  - Add _cljdoc_ badge
   - Reformat docstring for _cljdoc_
   - Add documentation page with usage instructions
 

@@ -1,5 +1,7 @@
 # bract.dev
 
+[![cljdoc badge](https://cljdoc.org/badge/bract/bract.dev)](https://cljdoc.org/d/bract/bract.dev)
+
 REPL based development and testing support module for Bract.
 
 
