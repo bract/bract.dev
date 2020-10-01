@@ -11,7 +11,7 @@ None
 - [Todo - Check breaking] Upgrade tools.namespace to 1.0.0
 - Documentation
   - [Todo] Add _cljdoc_ badge
-  - [Todo] Reformat docstring for _cljdoc_
+  - Reformat docstring for _cljdoc_
   - [Todo] Add documentation page with context and config keys
 
 
