@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.6.2-0.1.1-alpha1 / 2020-October-??
+## [WIP] 0.6.2-0.2.0-alpha1 / 2020-October-??
 
 - Upgrade bract.core to version 0.6.2
 - [Todo - Check breaking] Upgrade tools.namespace to 1.0.0
