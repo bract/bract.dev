@@ -7,7 +7,7 @@ None
 
 ## [WIP] 0.6.2-0.1.1-alpha1 / 2020-October-??
 
-- [Todo] Upgrade bract.core to 0.6.2
+- Upgrade bract.core to version 0.6.2
 - [Todo - Check breaking] Upgrade tools.namespace to 1.0.0
 - Documentation
   - [Todo] Add _cljdoc_ badge
