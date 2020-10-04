@@ -10,6 +10,7 @@
 (ns bract.dev.repl
   "Convenience namespace for REPL workflow. You may set this as the REPL namespace for Bract applications."
   (:require
+    [clojure.repl     :refer :all]
     [bract.core.dev   :refer [config-files context-file
                               deinit init
                               start stop verbose]]

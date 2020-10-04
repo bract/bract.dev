@@ -7,7 +7,7 @@ None
 
 ## [WIP] 0.6.2-0.2.0 / 2020-October-??
 
-- [Todo] Include `clojure.repl` vars in `bract.dev.repl` namespace
+- Include `clojure.repl` vars in `bract.dev.repl` namespace
 - [Todo] Colourful output support using AvisoNovate/pretty
 - [Todo] bract.ring traffic logger functions
 
