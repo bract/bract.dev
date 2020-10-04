@@ -5,6 +5,13 @@
 None
 
 
+## [WIP] 0.6.2-0.2.0 / 2020-October-??
+
+- [Todo] Include `clojure.repl` vars in `bract.dev.repl` namespace
+- [Todo] Colourful output support using AvisoNovate/pretty
+- [Todo] bract.ring traffic logger functions
+
+
 ## 0.6.2-0.2.0-alpha1 / 2020-October-01
 
 - Upgrade bract.core to version 0.6.2
