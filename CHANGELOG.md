@@ -5,11 +5,12 @@
 - [Idea] Colourful output support using AvisoNovate/pretty
 
 
-## [WIP] 0.6.2-0.2.0 / 2020-October-??
+## 0.6.2-0.2.0-alpha2 / 2020-October-06
 
 - Include `clojure.repl` vars in `bract.dev.repl` namespace
 - Logger functions `bract.dev.ring/log-*` for `bract.ring.wrapper/traffic-log-wrapper`
 - Provide DEV config resource `bract/dev/config.dev.edn`
+- More refer'ed vars in `bract.dev.repl` ns (parity with `lein repl`)
 
 
 ## 0.6.2-0.2.0-alpha1 / 2020-October-01
