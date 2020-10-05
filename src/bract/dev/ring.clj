@@ -10,7 +10,8 @@
 (ns bract.dev.ring
   "DEV mode functions for using with bract.ring and Ring."
   (:require
-    [clojure.stacktrace :as st]))
+    [clojure.stacktrace :as st]
+    [bract.core.util :as bc-util]))
 
 
 (def http-method
@@ -105,10 +106,9 @@
   (let [{:keys [request-method
                 uri
                 headers]} request]
-    (printf "%7s %s | %s\n"
-      (http-method request-method)
-      uri
-      (pr-str headers))))
+    (-> "%7s %s | %s"
+      (format (http-method request-method) uri (pr-str headers))
+      bc-util/err-println)))
 
 
 (defn log-outcome
@@ -121,10 +121,10 @@
         [request-methstr
          request-uri
          request-headers] [(http-method request-method) uri (pr-str headers)]]
-    (printf "%10.2fms | %-60s | %7s %s %s\n"
-      duration-millis
-      outcome-string
-      request-methstr request-uri request-headers)))
+    (-> "%10.2fms | %-60s | %7s %s %s"
+      (format duration-millis outcome-string
+        request-methstr request-uri request-headers)
+      bc-util/err-println)))
 
 
 (defn log-response
