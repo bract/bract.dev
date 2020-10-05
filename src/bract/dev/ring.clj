@@ -148,6 +148,6 @@
   [request exception ^double duration-millis]
   (log-outcome
     request
-    (format "%s: %s" (.getName ^Class (class exception)) (.getMessage exception))
+    (format "%s: %s" (.getName ^Class (class exception)) (.getMessage ^Throwable exception))
     duration-millis)
   (st/print-stack-trace exception))
