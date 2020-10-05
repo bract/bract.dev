@@ -1,0 +1,9 @@
+{;;
+ ;; bract.dev development config
+ ;;
+
+ "bract.ring.traffic.log.enabled" true
+ "bract.ring.traffic.log.options" {:request-logger   bract.dev.ring/log-request
+                                   :response-logger  bract.dev.ring/log-response
+                                   :exception-logger bract.dev.ring/log-exception}
+ }
