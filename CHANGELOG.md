@@ -2,14 +2,15 @@
 
 ## TODO
 
-None
+- [Idea] Colourful output support using AvisoNovate/pretty
 
 
 ## [WIP] 0.6.2-0.2.0 / 2020-October-??
 
 - Include `clojure.repl` vars in `bract.dev.repl` namespace
-- [Todo] Colourful output support using AvisoNovate/pretty
-- [Todo] bract.ring traffic logger functions
+- Logger functions `bract.dev.ring/log-*` for `bract.ring.wrapper/traffic-log-wrapper`
+- [Todo] Provided context resource `bract/dev/context.dev.edn`
+- [Todo] Provided config  resource `bract/dev/config.dev.edn`
 
 
 ## 0.6.2-0.2.0-alpha1 / 2020-October-01
