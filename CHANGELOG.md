@@ -5,6 +5,12 @@
 - [Idea] Colourful output support using AvisoNovate/pretty
 
 
+## 0.6.2-0.2.0-alpha3 / 2020-October-12
+
+- Use bract.core 0.6.2-alpha3
+- Do not log Ring request-arrived event in traffic-log wrapper options
+
+
 ## 0.6.2-0.2.0-alpha2 / 2020-October-06
 
 - Include `clojure.repl` vars in `bract.dev.repl` namespace
