@@ -5,6 +5,11 @@
 - [Idea] Colourful output support using AvisoNovate/pretty
 
 
+## [WIP] 0.6.2-0.2.0-beta1 / 2021-January-??
+
+- Use bract.core 0.6.2-beta1
+
+
 ## 0.6.2-0.2.0-alpha3 / 2020-October-12
 
 - Use bract.core 0.6.2-alpha3
