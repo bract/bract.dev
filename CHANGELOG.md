@@ -8,7 +8,7 @@
 ## [WIP] 0.6.2-0.2.0-beta2 / 2021-January-28
 
 - Drop `bract.dev.ring` ns - subsumed in `bract.ring`
-- [Todo] Drop `bract.dev.edn` file - subsumed in `bract.ring`
+- Drop `bract.dev.edn` file - subsumed in `bract.ring`
 - [Todo] Add `bract.dev.repl/help` fn for help text
 
 

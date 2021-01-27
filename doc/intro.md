@@ -27,10 +27,3 @@ reloaded on each command run:
 (start)    ; launch the application
 (restart)  ; stop and start again
 ```
-
-
-## Provided DEV config file
-
-| File                                                   | Available in application as | Contents                 |
-|--------------------------------------------------------|-----------------------------|--------------------------|
-|[config.dev.edn](../resources/bract/dev/config.dev.edn) |`bract/dev/config.dev.edn`   | Useful defaults DEV mode |
