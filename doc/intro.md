@@ -24,6 +24,7 @@ Now, you can run `lein repl` to invoke the REPL and run commands - modified name
 reloaded on each command run:
 
 ```clojure
+(help)     ; see REPL help text
 (start)    ; launch the application
 (restart)  ; stop and start again
 ```
