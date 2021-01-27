@@ -5,7 +5,7 @@
 - [Idea] Colourful output support using AvisoNovate/pretty
 
 
-## [WIP] 0.6.2-0.2.0-beta2 / 2021-January-28
+## 0.6.2-0.2.0-beta2 / 2021-January-28
 
 - Drop `bract.dev.ring` ns - subsumed in `bract.ring`
 - Drop `bract.dev.edn` file - subsumed in `bract.ring`
