@@ -3,6 +3,12 @@
 ## TODO
 
 - [Idea] Colourful output support using AvisoNovate/pretty
+- [Idea] Install coloured, pretty-printing fns using Puget: https://github.com/greglook/puget
+
+
+## [WIP] 0.6.2-0.2.0-beta3 / 2021-February-??
+
+- Use bract.core 0.6.2-beta3
 
 
 ## 0.6.2-0.2.0-beta2 / 2021-January-28
