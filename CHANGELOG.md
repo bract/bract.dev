@@ -8,8 +8,8 @@
 
 ## [WIP] 0.6.2-0.2.0-alpha4 / 2021-February-??
 
-- [Todo] Use bract.core 0.6.2-alpha4
-- [Todo] Use tools.namespace `1.1.0`
+- Use bract.core 0.6.2-alpha4
+- Use tools.namespace 1.1.0
 
 
 ## 0.6.2-0.2.0-beta3 / 2021-February-06
