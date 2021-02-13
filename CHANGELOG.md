@@ -6,7 +6,7 @@
 - [Idea] Install coloured, pretty-printing fns using Puget: https://github.com/greglook/puget
 
 
-## [WIP] 0.6.2-0.2.0-alpha4 / 2021-February-??
+## 0.6.2-0.2.0-alpha4 / 2021-February-13
 
 - Use bract.core 0.6.2-alpha4
 - Use tools.namespace 1.1.0
