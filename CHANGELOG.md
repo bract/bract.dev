@@ -6,6 +6,19 @@
 - [Idea] Install coloured, pretty-printing fns using Puget: https://github.com/greglook/puget
 
 
+## [WIP] 0.6.2-0.2.0 / 2021-February-??
+
+- Dependency update
+  - [Todo] Use bract.core 0.6.2
+  - Upgrade tools.namespace to 1.1.0
+- New features
+  - Add namespace `bract.dev.repl` for REPL support (with `clojure.repl` vars and `help` fn)
+- Documentation
+  - Add _cljdoc_ badge
+  - Reformat docstring for _cljdoc_
+  - Add documentation page with usage instructions
+
+
 ## 0.6.2-0.2.0-beta6 / 2021-February-21
 
 - Use bract.core 0.6.2-beta6
