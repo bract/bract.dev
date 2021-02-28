@@ -29,14 +29,14 @@
 
 
 (defn reset
-  "Stop application if running, followed by reinitializing the app. You must run bract.core.dev/start to start app."
+  "Stop application if running, followed by reinitializing the app. You must run `bract.core.dev/start` to start app."
   []
   (core-dev/stop)
   (reinit))
 
 
 (def go
-  "Stop application if running, followed by reinitializing the app. You must run bract.core.dev/start to start app.
+  "Stop application if running, followed by reinitializing the app. You must run `bract.core.dev/start` to start app.
   Same as 'bract.dev.reload/reset'."
   reset)
 
