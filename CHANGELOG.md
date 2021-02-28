@@ -9,7 +9,7 @@
 ## [WIP] 0.6.2-0.2.0 / 2021-February-??
 
 - Dependency update
-  - [Todo] Use bract.core 0.6.2
+  - Use bract.core 0.6.2
   - Upgrade tools.namespace to 1.1.0
 - New features
   - Add namespace `bract.dev.repl` for REPL support (with `clojure.repl` vars and `help` fn)
